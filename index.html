@@ -2,8 +2,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link href="cover.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+    
   </head>
   <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -26,28 +26,23 @@
               </li>
             </ul>
         </nav>
-  <main role="main" class="inner cover">
-    <h3 class="cover-heading">About Me</h3>
-    <img src="me.jpg" alt="profile" style="width:200px; height:200px;transform:rotate(-90deg);"id= bio-image>
-    <div class="text">
-    <p class="lead"><div class="row">
-        <div class="col-lg-12">My name is Akili James Kenneth McMackin, I'm 19 years old. I was born on October 20th, 1999, in Richmond Virginia. During my childhood, I explored a lot of my passions and found that I very much enjoyed music, and video games.
-            In 2011, I moved to Apopka Florida, and attended middle school. During my attendance at middle school, I would further grow my love for music, and eventually devoting more time to my guitar playing, which would become my main instrument.</div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12">
-            In high school, I would end up attending virtual school.
-            Virtual school was quite different from any other form of learning that I had been subject to at the time, it was an interesting experience. By the end of high school, I would graduate from Lake County Virtual School, as magna cumlaude. Soon after graduation, 
-            I was seeking for a way to support my music finacially, and for a skill that I could learn for a stable job.
-            That is where I found out about the UCF coding boot camp, and after researching the art of coding, I would become very interested in the subject. I enrolled, and about a year later, I would find myself in this course.
+
+        <div class="media">
+          <img src="assets/images/me.png" class="align-self-center mr-3" alt="...">
+          <div class="media-body">
+            <div class="card">
+              <h5 class="card-header">About Me</h5>
+              <div class="card-body">
+                <h5 class="card-title">From Childhood to Teenhood</h5>
+                <p class="card-text">My name is Akili James Kenneth McMackin, I'm 19 years old. I was born on October 20th, 1999, in Richmond Virginia. During my childhood, I explored a lot of my passions and found that I very much enjoyed music, and video games. In 2011, I moved to Apopka Florida, and attended middle school. During my attendance at middle school, I would further grow my love for music, and eventually devoting more time to my guitar playing, which would become my main instrument.</p>
+                <h5>Post Highschool and Coding Experience</h5>
+                <p>In high school, I would end up attending virtual school. Virtual school was quite different from any other form of learning that I had been subject to at the time, it was an interesting experience. By the end of high school, I would graduate from Lake County Virtual School, as magna cumlaude. Soon after graduation, I was seeking for a way to support my music finacially, and for a skill that I could learn for a stable job. That is where I found out about the UCF coding boot camp, and after researching the art of coding, I would become very interested in the subject. I enrolled, and about a year later, I would find myself in this course.</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div></p>
-    <p class="lead">
-      </div>
-    </p>
-  </main>
   <div class="footer">
-      <div class="alert alert-primary" role="alert">
+      <div class="alert alert-secondary" role="alert">
           <p>Trademark Akili McMackin 2019, in cooperation with Bootstrap</p>
       </div>
           
@@ -59,44 +54,49 @@
 </body>
 <style>
 body{
-background-image: url(circuit.png)
+background-image: url("assets/images/circuit.png")
 }
 .text{
-  background-color: aliceblue;
+  background-color: whitesmoke;
   margin-left: 10%;
   margin-right: 10%;
-  border-block-start-style: ridge;
-  border-block-end-style: ridge;
-  border-left-style: ridge;
-  border-right-style: ridge;
-  border-radius: 10%
-}
-h3{
-  background-color: aliceblue;
-  border-block-start-style: ridge;
-  border-block-end-style: ridge;
-  border-left-style: ridge;
-  border-right-style: ridge;
-  border-radius: 20%
+  border: black
 }
 h1{
-  background-color: aliceblue;
-  border-block-start-style: ridge;
-  border-block-end-style: ridge;
-  border-left-style: ridge;
-  border-right-style: ridge;
-  border-radius: 20%
+  background-color: whitesmoke;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: black
 } 
-  .footer{
-    position: absolute;
-    text-align: center;
-    left: 0;
-    right: 0;
-    bottom: 0;
+img{
+  width: 25%;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: black
 }
+.mt-0{
+  border-style: ridge;
+  border-width: 5px;
+  border-color: black;
+  margin-left: 0%;
+  margin-right: 38.3%
+}
+.media{
+margin-top: 1%
+}
+.navbar{
+  border-style: ridge;
+  border-width: 5px;
+  border-color: black
+}
+
+
 @media screen and (max-width: 640px){
   .text{
     margin-right: 0; margin-left: 0
+  }
+  .footer{
+    height: 0%;
   }
 }
   </style>
